@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Animal dog = new Animal("Dog");
-        dog.name = "Doggie";
+        dog.name = "Pies";
 
         System.out.println("Hi, I'm " + dog.name);
         System.out.println("My species is " + dog.species);
@@ -13,8 +13,8 @@ public class Main {
         dog.feed();
 
         Human me = new Human();
-        me.firstName = "Jakub";
-        me.lastName = "Russian";
+        me.firstName = "Zygmunt";
+        me.lastName = "Andrykowski";
         me.pet = dog;
 
         me.pet.feed();
