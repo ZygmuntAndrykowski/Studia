@@ -25,5 +25,10 @@ public class Main {
 
 
         System.out.println(me.pet.species);
+
+        me.pet = dog;
+
+        me.pet.feed();
+        me.pet.takeForAWalk();
     }
 }
