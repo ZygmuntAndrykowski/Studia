@@ -15,5 +15,6 @@ public class Main {
 
         System.out.println("Hi, I'm " + dog.name);
         System.out.println("My species is " + dog.species);
+
     }
 }
